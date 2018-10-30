@@ -9,5 +9,8 @@ local background = display.newImage("world.jpg", display.contentCenterX, display
 local myText = display.newText("Hello,World!", display.contentCenterX, display.contentWidth / 4, native.systemFont, 40 )
 myText:setFillColor( 1,100/255, 100/255 )
 
-local myText = display.newText("Hello,World!", display.contentCenterX, display.contentWidth / 4, native.systemFont, 40 )
+local myText = display.newText("Hello,World!", display.contentCenterX, display.contentWidth / 2, native.systemFont, 40 )
+myText:setFillColor( 1,100/255, 100/255 )
+
+local myText = display.newText("Hello,World!", display.contentCenterX, display.contentWidth / 0, native.systemFont, 40 )
 myText:setFillColor( 1,100/255, 100/255 )
